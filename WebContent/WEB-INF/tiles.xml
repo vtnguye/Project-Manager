@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+  <definition name="login_template" template="/template/login_template.jsp">
+    <put-attribute name="title" value="Title" />
+  </definition>
+  <definition name="admin_template" template="/template/admin_template.jsp">
+    <put-attribute name="title" value="Title" />
+  </definition>
+
+  <definition name="index" extends="admin_template">
+    <put-attribute name="title" value="Home page" />
+    <put-attribute name="content" value="/pages/index.jsp"></put-attribute>
+  </definition>
+  
+  <definition name="login" extends="login_template">
+    <put-attribute name="title" value="Login page" />
+    <put-attribute name="content" value="/pages/login.jsp"></put-attribute>
+  </definition>
+  
+  <definition name="register" extends="login_template">
+    <put-attribute name="title" value="Register page" />
+    <put-attribute name="content" value="/pages/register.jsp"></put-attribute>
+  </definition>
+  
+  <definition name="department.index" extends="admin_template">
+    <put-attribute name="title" value="Department page" />
+    <put-attribute name="content" value="/pages/department/list.jsp"></put-attribute>
+  </definition>
+  
+  <definition name="department.add" extends="admin_template">
+    <put-attribute name="title" value="Add department page" />
+    <put-attribute name="content" value="/pages/department/add.jsp"></put-attribute>
+  </definition>
+  
+  <definition name="department.edit" extends="admin_template">
+    <put-attribute name="title" value="Edit department page" />
+    <put-attribute name="content" value="/pages/department/edit.jsp"></put-attribute>
+  </definition>
+  
+  <definition name="user.index" extends="admin_template">
+    <put-attribute name="title" value="User page" />
+    <put-attribute name="content" value="/pages/user/list.jsp"></put-attribute>
+  </definition>
+  
+  <definition name="user.edit" extends="admin_template">
+    <put-attribute name="title" value="Edit user page" />
+    <put-attribute name="content" value="/pages/user/edit.jsp"></put-attribute>
+  </definition>
+  
+  <definition name="employee.index" extends="admin_template">
+    <put-attribute name="title" value="Employee page" />
+    <put-attribute name="content" value="/pages/employee/list.jsp"></put-attribute>
+  </definition>
+  
+  <definition name="employee.add" extends="admin_template">
+    <put-attribute name="title" value="Add employee page" />
+    <put-attribute name="content" value="/pages/employee/add.jsp"></put-attribute>
+  </definition>
+  
+  <definition name="employee.edit" extends="admin_template">
+    <put-attribute name="title" value="Edit employee page" />
+    <put-attribute name="content" value="/pages/employee/edit.jsp"></put-attribute>
+  </definition>
+  
+  <definition name="project.index" extends="admin_template">
+    <put-attribute name="title" value="Project page" />
+    <put-attribute name="content" value="/pages/project/list.jsp"></put-attribute>
+  </definition>
+  
+  <definition name="project.add" extends="admin_template">
+    <put-attribute name="title" value="Add project page" />
+    <put-attribute name="content" value="/pages/project/add.jsp"></put-attribute>
+  </definition>
+  
+  <definition name="project.edit" extends="admin_template">
+    <put-attribute name="title" value="Edit project page" />
+    <put-attribute name="content" value="/pages/project/edit.jsp"></put-attribute>
+  </definition>
+
+</tiles-definitions>

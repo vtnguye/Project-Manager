@@ -1,0 +1,10 @@
+eclipse.preferences.version=1
+encoding//WebContent/common/topbar.jsp=UTF-8
+encoding//src/vn/molu/controller/DepartmentController.java=UTF-8
+encoding//src/vn/molu/controller/EmployeeController.java=UTF-8
+encoding//src/vn/molu/controller/ProjectController.java=UTF-8
+encoding//src/vn/molu/controller/UserController.java=UTF-8
+encoding//src/vn/molu/dao/impl/UserDAOImpl.java=UTF-8
+encoding//src/vn/molu/domain/EmployeeProjectID.java=UTF-8
+encoding//src/vn/molu/domain/User.java=UTF-8
+encoding//src/vn/molu/security/UserService.java=UTF-8
